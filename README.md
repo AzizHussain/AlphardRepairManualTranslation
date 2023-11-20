@@ -24,15 +24,15 @@ Open each script in turn and run it. You will be prompted to select the repair m
 # FAQs
 **Q1. Will this work on other Toyota electronic repair manuals, e.g. Alphard AH10?**
 
-A1. Possibly, if the repair manual has the same structure with content stored inside XML files and diagrams as SVGz. I am unable to 
+A1. Possibly, if the repair manual has the same structure with content stored inside XML files and diagrams as SVGs. Currently I have no plans to create a specific AH10 translation (at least until the AH20 translation is fully complete).
 
-**Q2. How do I get the repair manual to load correctly on Windows 10?
-**
+**Q2. How do I get the repair manual to load correctly on Windows 10?**
+
 A2. Modern OSs don't work very well with the old repair manual. You can try open it in Edge's Internet Explorer compatiblity mode, but you will noyl get partialy functionality (e.g. SVGs probably won't load correctly)
 
 **Q3. There are lots of formatting mistakes (random characters in the wrong place, non-capitalised acronyms etc) - why?**
 
-A3. Each string in the XML file is run through Google Translate, unfortunately due to quirks in the original text and/or translation limitations, there are often minor formatting/grammatical errors. There is an attempt in the scripts to 'manually' correct some common errors where they are noticed, but there are hundreds of thousands of individual strings that need to be translated and more resources are needed to manually identify additional common quirks. If you are able to help with this, please get in touch.
+A3. Each string in the XML file is run through Google Translate, unfortunately due to quirks in the original text and/or translation limitations, there are often formatting/grammatical errors. There is an attempt in the scripts to 'manually' correct some common errors where they are noticed, but there are hundreds of thousands of individual strings that need to be translated and more resources are needed to manually identify additional common quirks. If you are able to help with this, please get in touch.
 
 **Q4. How can I help with this translation project?**
 
