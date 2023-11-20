@@ -15,8 +15,8 @@ These are a set of scripts which will carry out the translation - they are not t
 # Requirements
 You will require:
 - A Japanese copy of the Alphard AH20 repair manual (the XML version)
-- A Windows computer with Powershell 5 (Windows 10 will hav it by default)
-- The Various PowerShell scripts
+- A Windows computer with Powershell 5 (Windows 10 will have it by default)
+- The various PowerShell scripts in this repo
 
 # Instructions
 Open each script in turn and run it. You will be prompted to select the repair manual source and where to copy a temporary version of the repair manual to. Run each successive script in turn.
