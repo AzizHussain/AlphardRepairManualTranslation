@@ -3,6 +3,15 @@ A translation of the Japanese Alphard AH20 electronic repair manual (XML version
 
 These are a set of scripts which will carry out the translation - they are not the repair manual itself - you will need to supply your own copy of the repair manual. The repair manual can be bought on Japanese websites such as Yahoo (via Jauce / Buyee), Rakuten, Mercari, Amazon.co.jp etc
 
+# What's done
+* Translation of the text repair sections
+
+# What's not done
+* Translation of SVG diagram text
+* Translation of EWD (Electronic Wiring Diagram)
+* Translation of other miscellanous GUI related elements (button images, button text etc)
+* Mapping file of manual corrections needed
+  
 # Requirements
 You will require:
 - A Japanese copy of the Alphard AH20 repair manual (the XML version)
