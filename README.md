@@ -1,4 +1,4 @@
-# Alphard AH20 2nd Gen - Repair Manual Translation
+# Alphard AH20 2nd Gen - Japanese Electronic Repair Manual Translation
 A translation of the Japanese Alphard AH20 electronic repair manual (XML version). Please not that this translation is currently INCOMPLETE and ONGOING.
 
 These are a set of scripts which will carry out the translation - they are not the repair manual itself - you will need to supply your own copy of the repair manual. The repair manual can be bought on Japanese websites such as Yahoo (via Jauce / Buyee), Rakuten, Mercari, Amazon.co.jp etc
