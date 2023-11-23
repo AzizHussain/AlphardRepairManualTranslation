@@ -44,6 +44,6 @@ A3. Each string in the XML file is run through Google Translate, unfortunately d
 
 **Q4. How can I help with this translation project?**
 
-AA. There are a number of issues still that need to be fixed, and additional resources are required - both technical and non-technical.
+A4. There are a number of issues still that need to be fixed, and additional resources are required - both technical and non-technical.
 * Someone with front end dev skills (HTML, CSS, XML) to help get the repair manual working on modern browsers.
 * Someone to go through the translations and update the mapping file for manual corrections e.g. where 'ecu' should be 'ECU'
