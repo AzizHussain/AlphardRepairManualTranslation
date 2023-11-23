@@ -6,7 +6,7 @@ These are a set of scripts which will carry out the translation - they are not t
 # What's done
 * Translation of the text repair sections
 * Translation of SVG diagram text
-* 
+
 # What's not done
 * Translation of EWD (Electronic Wiring Diagram)
 * Translation of other miscellanous GUI related elements (button images, button text etc)
