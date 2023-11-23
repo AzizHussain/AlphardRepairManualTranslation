@@ -28,14 +28,14 @@ A1. Possibly, if the repair manual has the same structure with content stored in
 
 **Q2. How do I get the repair manual to load correctly on Windows 10?**
 
-A2. Modern OSs don't work very well with the old repair manual. You can try open it in Edge's Internet Explorer compatiblity mode, but you will noyl get partialy functionality (e.g. SVGs probably won't load correctly)
+A2. Modern OSs don't work very well with the old repair manual. You can try open it in Edge's Internet Explorer compatiblity mode, but you will only get partial functionality (e.g. SVGs probably won't load correctly). To display it properly you will need an older OS (WinXP/7) and an older copy of Internet Explorer (7-9).
 
-**Q3. There are lots of formatting mistakes (random characters in the wrong place, non-capitalised acronyms etc) - why?**
+**Q3. Why are there are lots of formatting mistakes (random characters in the wrong place, non-capitalised acronyms etc)?**
 
 A3. Each string in the XML file is run through Google Translate, unfortunately due to quirks in the original text and/or translation limitations, there are often formatting/grammatical errors. There is an attempt in the scripts to 'manually' correct some common errors where they are noticed, but there are hundreds of thousands of individual strings that need to be translated and more resources are needed to manually identify additional common quirks. If you are able to help with this, please get in touch.
 
 **Q4. How can I help with this translation project?**
 
 AA. There are a number of issues still that need to be fixed, and additional resources are required - both technical and non-technical.
-* Someone with front end dev skills (HTML, CSS) to help get the repair manual working on modern browsers
+* Someone with front end dev skills (HTML, CSS, XML) to help get the repair manual working on modern browsers.
 * Someone to go through the translations and update the mapping file for manual corrections e.g. where 'ecu' should be 'ECU'
