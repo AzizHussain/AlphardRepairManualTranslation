@@ -26,7 +26,7 @@ You will require:
 - The various PowerShell scripts in this repo
 
 # Instructions
-- Copy the contents of tbe electronic file to 'C:\SC0902J_XML_RAW'
+- Copy the contents of CD-ROM containing the repair manual 'C:\SC0902J_XML_RAW'
 - Open each script in turn in an elevated PowerShell window and run it. You will be prompted to select the repair manual source and where to copy a temporary version of the repair manual to. Run each successive script in turn. It may take 24hrs+ to process all files.
 
 # FAQs
