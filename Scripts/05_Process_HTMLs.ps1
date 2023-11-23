@@ -14,12 +14,14 @@ $Translation = $Res[0].SyncRoot | foreach { $_[0] }
 return $Translation
 }
 
-
+$folderPath = 'C:\SC0902J_XML_RAW'
 
 # Load the HTML files
-$htmlFiles = Get-ChildItem -Path 'C:\SC0902J_XML_Translated\' -Filter "*.htm*" -Recurse -file
+$htmlFiles = Get-ChildItem -Path $folderPath -Filter "*.htm*" -Recurse -file
 #$htmlFiles = Get-ChildItem -path 'C:\temp\SC0902J_XML_Translated\repair\contents\rm000000ccz07yx.xml'
+
 ################################################
+
 foreach ($htmlFile in $htmlFiles) {
     write-host $htmlFile.FullName -fo Green
 
@@ -42,7 +44,3 @@ foreach ($htmlFile in $htmlFiles) {
    # $html | Out-File -FilePath "$($htmlFile.Directory.FullName)\$($htmlFile.Name)_Translated$($htmlFile.Extension)" -Encoding utf8
      $html | Out-File -FilePath "$($htmlFile.FullName)" -Encoding utf8
 }
-
-
-# Read the contents of the HTML file
-
