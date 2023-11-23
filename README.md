@@ -3,6 +3,13 @@ A translation of the Japanese Alphard AH20 electronic repair manual (XML version
 
 These are a set of scripts which will carry out the translation - they are not the repair manual itself - you will need to supply your own copy of the repair manual. The repair manual can be bought on Japanese websites such as Yahoo (via Jauce / Buyee), Rakuten, Mercari, Amazon.co.jp etc
 
+![image](https://github.com/AzizHussain/AlphardRepairManualTranslation/assets/39553956/62f864d2-1fa1-4d4a-a9c7-060983d16aae)
+![image](https://github.com/AzizHussain/AlphardRepairManualTranslation/assets/39553956/d9385bb5-87bf-4166-9e18-61bc755f6c0f)
+![image](https://github.com/AzizHussain/AlphardRepairManualTranslation/assets/39553956/0af831ec-ec07-433f-8795-267e452edde1)
+![image](https://github.com/AzizHussain/AlphardRepairManualTranslation/assets/39553956/cad871f9-ffb2-4514-a168-88f83ae6f6ad)
+![image](https://github.com/AzizHussain/AlphardRepairManualTranslation/assets/39553956/40407a78-2236-4748-bb94-9afb59c60964)
+
+
 # What's done
 * Translation of the text repair sections
 * Translation of SVG diagram text
