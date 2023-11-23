@@ -5,9 +5,9 @@ These are a set of scripts which will carry out the translation - they are not t
 
 # What's done
 * Translation of the text repair sections
-
-# What's not done
 * Translation of SVG diagram text
+* 
+# What's not done
 * Translation of EWD (Electronic Wiring Diagram)
 * Translation of other miscellanous GUI related elements (button images, button text etc)
 * Mapping file of manual corrections needed
@@ -19,7 +19,7 @@ You will require:
 - The various PowerShell scripts in this repo
 
 # Instructions
-Open each script in turn and run it. You will be prompted to select the repair manual source and where to copy a temporary version of the repair manual to. Run each successive script in turn.
+Open each script in turn and run it. You will be prompted to select the repair manual source and where to copy a temporary version of the repair manual to. Run each successive script in turn. It may take 24hrs+ to process all files.
 
 # FAQs
 **Q1. Will this work on other Toyota electronic repair manuals, e.g. Alphard AH10?**
