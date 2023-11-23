@@ -37,7 +37,7 @@ function Replace-JapaneseText($node) {
                 $node.InnerText = $englishText
 
                 write-host "$japanesetext          $englishText" -fo yellow
-                Add-Content c:\temp\translation_log.txt -Value "$japanesetext          $englishText" -Encoding UTF8
+                Add-Content "$WorkingFolder\translation_log.txt" -Value "$japanesetext          $englishText" -Encoding UTF8
             }
             Else{
                 #"$japaneseText doesn't contain any jap chars"
@@ -67,7 +67,7 @@ foreach ($xmlFile in $xmlFiles) {
     write-host "COUNTER: $counter of $($xmlFiles.Count)" -ForegroundColor Cyan
     #start-sleep -seconds 1
 
-    Add-Content c:\temp\translation_log.txt -Value "$($xmlFile)======================================================" -Encoding UTF8
+    Add-Content "$WorkingFolder\translation_log.txt" -Value "$($xmlFile)======================================================" -Encoding UTF8
     # Load the XML file
     Try {
         $xml = [xml](Get-Content -Path $xmlFile -Encoding UTF8)
@@ -85,4 +85,3 @@ foreach ($xmlFile in $xmlFiles) {
         Add-Content "$WorkingFolder\XML_Error_log_Pass3.txt" -Value "$($xmlFile)" -Encoding UTF8
     }
 }
-
